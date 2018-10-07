@@ -1,0 +1,8 @@
+---
+applications:
+ - name: at-the-movies 
+   buildpack: https://github.com/cloudfoundry/python-buildpack.git 
+   random-route: true
+   memory: 256M
+   stack: cflinuxfs2
+   timeout: 180 
